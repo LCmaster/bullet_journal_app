@@ -3,11 +3,13 @@
 *.log
 *.pyc
 *.swp
+
 .DS_Store
 .atom/
 .buildlog/
 .history
 .svn/
+pubspec.lock
 migrate_working_dir/
 
 # IntelliJ related
@@ -42,6 +44,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# Custom
-pubspec.lock
